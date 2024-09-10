@@ -51,6 +51,7 @@ add_library(mlib STATIC ${MLIB_SOURCES_CPP})
 target_include_directories(mlib PUBLIC headers tests libs/mlib/headers)
 
 set(SOURCES
+    src/main.cpp
 )
 
 add_executable(${projectName} ${SOURCES})
